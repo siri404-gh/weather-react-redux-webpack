@@ -9,6 +9,7 @@ import { NavBar } from './../presentational/NavBar/NavBar';
 import { MyAppBar } from '../presentational/AppBar/AppBar';
 import Drawer from '../presentational/Drawer/Drawer';
 import Avatar from './../presentational/Avatar/Avatar';
+import Dialog from './../presentational/Dialog/Dialog';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
@@ -27,6 +28,7 @@ export const WeatherApp = () => (
           <MyAppBar title="Weather" />
           <Drawer />
           <Avatar />
+          <Dialog />
         </div>
       </MuiThemeProvider>
       <NavBar title='Weather'/>
