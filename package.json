@@ -62,5 +62,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "devDependencies": {
+    "sw-precache": "^5.1.0"
   }
 }

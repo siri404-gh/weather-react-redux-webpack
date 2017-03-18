@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import store from './data/store';
 import { Provider } from 'react-redux';
-import { TodoApp } from './components/TodoApp/TodoApp';
+import { WeatherApp } from './components/WeatherApp/WeatherApp';
 
 ReactDOM.render(
     <AppContainer>
         <Provider store={store}>
-            <TodoApp />
+            <WeatherApp />
         </Provider>
     </AppContainer>,
     document.getElementById('root')
